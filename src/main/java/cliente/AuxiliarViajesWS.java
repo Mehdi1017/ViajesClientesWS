@@ -8,9 +8,6 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.ParseException;
-
-import java.io.IOException;
 
 public class AuxiliarViajesWS {
     private Client cliente;
@@ -28,7 +25,6 @@ public class AuxiliarViajesWS {
         JSONArray viajes = new JSONArray();
         if (estado == 200){
             viajes = response.readEntity(JSONArray.class);
-            //System.out.println(viajes.getClass().getName());
             response.close();
             return viajes;
         } else if (estado == 404) {

@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9335e2-cbbd-4f6f-b90d-83a0a9e6fa2d" name="Changes" comment="implementada ClienteViajesWS">
+    <list default="true" id="5c9335e2-cbbd-4f6f-b90d-83a0a9e6fa2d" name="Changes" comment="final falta probar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cliente/AuxiliarViajesWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cliente/AuxiliarViajesWS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cliente/ClienteViajesWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cliente/ClienteViajesWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/viajesws/modelo/GestorViajes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/viajesws/modelo/Viaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/viajesws/servicios/AplicacionViajes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/viajesws/servicios/RecursoViajes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="ClienteViajesWS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteViajesWS" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cliente.ClienteViajesWS" />
       <module name="ViajesClientesWS" />
       <extension name="coverage">
@@ -95,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670157530661</updated>
       <workItem from="1670157532399" duration="3786000" />
-      <workItem from="1670255556004" duration="15309000" />
+      <workItem from="1670255556004" duration="17299000" />
+      <workItem from="1670279203854" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="implementada ClienteViajesWS">
       <created>1670160923520</created>
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670160923520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final falta probar">
+      <created>1670273230888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670273230888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implementada ClienteViajesWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementada ClienteViajesWS" />
+    <MESSAGE value="final falta probar" />
+    <option name="LAST_COMMIT_MESSAGE" value="final falta probar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -22,8 +22,6 @@ public class ClienteViajesWS {
         System.out.println("3. Anular una reserva");
         System.out.println("4. Ofertar un viaje");
         System.out.println("5. Borrar un viaje");
-        System.out.println("6. Registrar notificacion");
-        System.out.println("7. Borrar notificacion");
         do {
             System.out.print("\nElige una opcion (0..7): ");
             opcion = teclado.nextInt();
