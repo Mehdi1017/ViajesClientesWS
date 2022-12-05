@@ -57,15 +57,14 @@ public class ClienteViajesWS {
 
                     case 1: { // Consultar viajes con un origen dado
                         System.out.print("Introduce origen: ");
-                        String origen = teclado.nextLine().toLowerCase();
+                        String origen = teclado.nextLine();
                         JSONArray viajes = auxiliar.consultaViajes(origen);
                         if (viajes.isEmpty()) {
                             System.out.print("No se han encontrado viajes de este origen: ");
                             break;
                         }
-                        Iterator<JSONObject> iterator = viajes.iterator();
-                        while (iterator.hasNext()) {
-                            System.out.println(iterator.next().toJSONString());
+                        for (Object viaje : viajes){
+                            System.out.println((viaje).toString());
                         }
                         break;
                     }
@@ -100,7 +99,7 @@ public class ClienteViajesWS {
 
                     case 4: { // Ofertar un viaje
                         System.out.print("Introduzca origen: ");
-                        String origen = teclado.next().toLowerCase();
+                        String origen = teclado.next();
                         System.out.print("Introduzca destino: ");
                         String destino = teclado.next();
                         System.out.print("Introduzca fecha del viaje: ");
@@ -131,25 +130,6 @@ public class ClienteViajesWS {
                         break;
                     }
 
-                    case 6: {
-                        System.out.println("Introduzca origen del viaje: ");
-                        String origen = teclado.next().toLowerCase();
-                        auxiliar.registrarNotificacion(origen);
-                        System.out.println("Nueva notificacion creada");
-                        break;
-                    }
-
-                    case 7: {
-                        System.out.println("Introduce origen del viaje: ");
-                        String origen = teclado.next().toLowerCase();
-                        boolean borrada = h.borrarNotificacion(origen);
-
-                        if (borrada)
-                            System.out.println("Notificacion borrada");
-                        else
-                            System.out.println("No existe ninguna notificación para este origen");
-                        break;
-                    }
 
                 } // fin switch
 
